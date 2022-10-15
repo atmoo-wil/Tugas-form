@@ -1,9 +1,14 @@
+
+
 function nilaiMasuk() {
-    const nama = document.getElementById("nama").value;
-    const email = document.getElementById("email").value;
-    const telp = document.getElementById("telp").value;
-    const list = document.getElementById("list");
+    let nama = document.getElementById("nama").value;
+    let email = document.getElementById("email").value;
+    let telp = document.getElementById("telp").value;
     console.log(nama);
+
+    function edit() {
+      return nama = prompt("Ganti nama");
+    }
 
     document.getElementById("list-group").innerHTML+=
     `
