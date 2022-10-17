@@ -56,7 +56,7 @@
             />
           </div>
           
-          <button type="submit" class="btn btn-primary mt-2" onclick="nilaiMasuk()">Submit</button>
+          <button type="submit" id="submitBtn" class="btn btn-primary mt-2">Submit</button>
           <button type="reset" class="btn bg-light mt-2 ms-2" ">Reset</button>
         </form>
       </div>
@@ -64,9 +64,21 @@
     <!-- akhir form -->
 
     <!-- awal hasil input form -->
-    <section>
+    <section class="container mt-5">
     <ul id="list-group">
-      
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">No</th>
+            <th scope="col">Nama</th>
+            <th scope="col">Email</th>
+            <th scope="col">No.Hp</th>
+          </tr>
+        </thead>
+        <tbody id="listnama">
+
+        </tbody>
+      </table>
     </ul>
     </section>
     <!-- akhir hasil input form-->
